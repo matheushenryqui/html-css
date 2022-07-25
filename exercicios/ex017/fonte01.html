@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+         
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /* Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            Recomendação oficial: Usar px ou em
+            */
+            font-size: 1em ;
+            
+            /* lighter normal bold bolder */
+        }
+        
+        h1 {
+            
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family 
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+         }
+
+         h2 {
+            font: bolder 2em 'Work Sans'
+         }
+
+         p {
+            text-align: justify;
+         }
+</style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptatum nihil qui repellat in numquam, dolorum non ipsam et, omnis cumque incidunt. Error sint et, provident illum saepe unde ullam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum eligendi iste culpa minus ut aliquam autem non ratione eveniet, asperiores nesciunt unde, enim sed perspiciatis soluta mollitia, blanditiis aliquid reprehenderit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae facere nam quasi vitae, quae ipsam quos labore distinctio magnam quibusdam atque veritatis recusandae, sapiente iusto tenetur nisi, eligendi nobis vero.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam iusto accusantium, culpa totam sint iste dicta mollitia vitae quo dignissimos voluptatem eum hic distinctio qui voluptas unde beatae vero provident?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. S apiente nesciunt accusantium distinctio assumenda maxime officia vero dolor nemo fugiat mollitia? In facilis ullam nostrum accusamus qui aspernatur? Veniam, ab minima!</p>
+</body>
+</html>
