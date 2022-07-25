@@ -1,5 +1,5 @@
 # html-css
- Curso de HTML5 & CSS3 do CursoemVídeo
+ Curso de HTML5 & CSS3 do CursoemVídeo.
 
  Estou aprendendo Web Design e Front-End e agora vou gerenciar meus repositórios!
 
