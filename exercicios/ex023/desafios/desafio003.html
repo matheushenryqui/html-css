@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 003</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 700px;
+            height: 250px;
+        }
+
+        thead {
+            background-color: gray;
+            color: white;
+        }
+
+        td,th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th#cinza0 {
+            background-color: gray;
+            color: white;
+        }
+
+        td#cinza {
+            color: white;
+            background-color: gray;
+            font-weight: bold;
+        }
+
+        th#cinza {
+            color: white;
+            text-align: left;
+            background-color: gray;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio da Tabela 003</h1>
+    <table>
+        <thead>
+            <th rowspan="2">Área</th>
+            <th rowspan="2">Disciplina</th>
+            <th colspan="2" scope="colgroup">Notas</th>
+            <th rowspan="2">Média</th>
+
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+           </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Exatas</th>
+                <td>Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+                <td>Física</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" id="cinza" scope="rowgroup">Média de Exatas</th>
+                <th id="cinza0">0.0</th>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" id="cinza" scope="rowgroup" class="linha">Média de Humanas</th>
+                <th id="cinza0">0.0</th>
+            </tr>
+        </tbody>
+</body>
+</html>
